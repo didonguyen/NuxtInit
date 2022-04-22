@@ -2,6 +2,7 @@
     <div class="main-wrap">
         <div class="container">
             <Header />
+            <Category />
             <img src="~/assets/img/home.png" alt="Home Img" style="width: 100%">
 
         </div>

@@ -21,8 +21,8 @@
             </div>
             <div class="header__content-socials">
                 <font-awesome-icon :icon="['fab', 'facebook-f']" class="header__content-socials-icon" />
-                <font-awesome-icon icon="fa-brands fa-twitter" class="header__content-socials-icon" />
-                <font-awesome-icon icon="fa-brands fa-instagram" class="header__content-socials-icon" />
+                <font-awesome-icon :icon="['fab', 'twitter']" class="header__content-socials-icon" />
+                <font-awesome-icon :icon="['fab', 'instagram']" class="header__content-socials-icon" />
             </div>
         </div>
         <div class="header__img">
@@ -109,12 +109,18 @@
         margin-left: 15px;
     }
 
+    .header__content-socials {
+        margin-top: 60px;
+    }
+
     .header__content-socials-icon {
         color: #FFF;
         font-size: 1.6rem;
+        margin-right: 20px;
     }
 
     .header__img {
+        text-align: center;
     }
 
     .header__img-image {
